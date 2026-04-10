@@ -19,6 +19,11 @@ WORKDIR /home/node/app
 # HF Spaces listens on 7860
 ENV PORT=7860
 ENV HOST=0.0.0.0
+
+# Authenticated/private mode allows binding to 0.0.0.0
+ENV PAPERCLIP_DEPLOYMENT_MODE=authenticated
+ENV PAPERCLIP_DEPLOYMENT_EXPOSURE=private
+
 # The server requires PAPERCLIP_HOME, and it must be writable by user
 ENV PAPERCLIP_HOME=/home/node/app/data
 
