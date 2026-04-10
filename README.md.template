@@ -1,0 +1,13 @@
+---
+title: Paperclip AI
+emoji: 🏢
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
+# Paperclip AI
+
+Paperclip is an open-source orchestration server and UI for agentic businesses.
